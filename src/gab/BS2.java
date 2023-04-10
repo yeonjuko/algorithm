@@ -43,10 +43,10 @@ public class BS2 {
             // 해당 부품이 존재하는지 확인
             int result = binarySearch(arr, targets[i], 0, n - 1);
             if (result != -1) {
-                System.out.print("yes ");
+                System.out.print("yes");
             }
             else {
-                System.out.print("no ");
+                System.out.print("no");
             }
         }
     }
